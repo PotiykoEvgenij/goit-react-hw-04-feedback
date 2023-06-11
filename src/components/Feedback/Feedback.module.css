@@ -1,0 +1,33 @@
+.feedback {
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #dbd8d8;
+    border: 1px solid #2c2828;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.feedbackTitle {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.feedbackButtons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.smileyButton {
+    margin-bottom: 20px;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.smiley {
+    font-size: 2rem;
+}
