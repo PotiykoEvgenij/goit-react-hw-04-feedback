@@ -16,6 +16,7 @@
 }
 
 .feedbackButtons {
+    padding: 0px 40px 0px 40px;
     display: flex;
     justify-content: space-around;
 }
@@ -30,4 +31,13 @@
 
 .smiley {
     font-size: 2rem;
+    transition: text-shadow 0.3s ease;
+}
+
+.smileyButton:hover .smiley {
+    text-shadow: 0px 0px 20px #D3CF7A;
+}
+
+.smileyButton:active .smiley {
+    text-shadow: 0px 0px 10px #72c72c;
 }
